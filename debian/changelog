@@ -1,0 +1,39 @@
+node-prr (1.0.1-2) unstable; urgency=medium
+
+  * Team upload
+
+  [ Pirate Praveen ]
+  * Fix vcs urls
+
+  [ Debian Janitor ]
+  * Use secure copyright file specification URI.
+  * Bump debhelper from old 9 to 12.
+  * Set debhelper-compat version in Build-Depends.
+  * Change priority extra to priority optional.
+  * Set upstream metadata fields: Repository, Repository-Browse.
+  * Update Vcs-* headers from URL redirect.
+  * Use canonical URL in Vcs-Git.
+  * Apply multi-arch hints.
+    + node-prr: Add Multi-Arch: foreign.
+  * Bump debhelper from old 12 to 13.
+
+  [ Yadd ]
+  * Declare compliance with policy 4.6.0
+  * Add "Rules-Requires-Root: no"
+  * Change section to javascript
+  * Add debian/gbp.conf
+  * Modernize debian/watch
+    * Fix filenamemangle
+    * Fix GitHub tags regex
+  * Drop nodejs dependency
+  * Mark test dependencies with <!nocheck>
+  * Use dh-sequence-nodejs auto test & install
+
+ -- Yadd <yadd@debian.org>  Fri, 12 Nov 2021 11:06:53 +0100
+
+node-prr (1.0.1-1) unstable; urgency=low
+
+  [ Andrew Kelley ]
+  * Initial release (Closes: #753247)
+
+ -- Pirate Praveen <praveen@debian.org>  Tue, 11 Apr 2017 19:33:35 +0530
